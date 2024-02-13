@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>presentation</title>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav ul {
+    
+            padding-top: 5px;
+            display: block;
+    
+        }
+        nav li{
+            display: inline;
+            margin-right: 20px;
+        }
+        nav li a {
+            color: #000000;
+    
+        }
+        nav li {
+            display: inline;         
+            margin-right: 20px;
+        }
+        nav {
+            width: 40%;
+    
+
+    
+        }
+        .firstpage {
+            width: 100%;
+            height: 100vh;
+            background-color: #2d4354;
+        }
+        .firstpage header {
+            background-color: #4e697e;
+            display: flex;
+            justify-content: space-between;
+    
+            padding: 10px;
+            align-content: baseline;
+
+        }
+        .firstpage header h2 {
+            font-family: "Fira Sans", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+        
+        .maincontet1 {
+            width: 100%;
+            height: 90vh;
+   
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .maincontet1 h1 {
+            color: #f6f6f7;
+            font-family: "Fira Sans", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 30px;
+    
+        }
+        .maincontet1 p {
+            text-align: center;
+            margin-top: 10px;
+            color: #f6f6f7;
+            padding: 5px;
+            font-family: "Fira Sans", sans-serif;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 15px;
+
+        }
+        .secondpage {
+            width: 100%;  
+            height: 100vh;
+            background-color: #73766a;
+
+        }
+
+        .thirdpage {
+            width: 100%;  
+            height: 100vh;
+            background-color: #fed7a5;
+        }
+        .fourthpage {
+            width: 100%;  
+            height: 100vh;
+            background-color: #9e6752;
+
+        }
+        .fifthpage {
+            width: 100%;  
+            height: 100vh;
+            background-color: #534145;
+
+        }
+        .sixthpage {
+            width: 100%;  
+            height: 100vh;
+            background-color: #73766a;
+
+        }
+        .spacer {
+            aspect-ratio: 960/300;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .layer1 {
+            background-image: url(https://svgur.com/i/12zs.svg);
+        }
+
+        .secondpage {
+            margin-top: -250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .secondpage .caption {
+            padding: 10px;
+
+        }
+        .secondpage .caption h2 {
+            color: #f6f6f7;
+            font-family: "Fira Sans", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 30px;
+        }
+        .secondpage .caption p {
+            text-align: center;
+            margin-top: 10px;
+            color: #f6f6f7;
+            padding: 5px;
+            font-family: "Fira Sans", sans-serif;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 15px;
+
+        }
+        img {
+            border-radius: 10px;
+            width: 600px;
+            height: 400px;
+        }
+        .layer2 {
+            background-image: url(https://svgur.com/i/130y.svg)
+        }
+
+        .thirdpage {
+            margin-top: -250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .thirdpage .caption2 {
+            padding: 10px;
+
+        }
+        .thirdpage .caption2 h2 {
+            color: #f6f6f7;
+            font-family: "Fira Sans", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 30px;
+        }
+        .thirdpage .caption2 p {
+            text-align: center;
+            margin-top: 10px;
+            color: #f6f6f7;
+            padding: 5px;
+            font-family: "Fira Sans", sans-serif;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 15px;
+
+        }
+        .layer3 {
+            background-image: url(https://svgur.com/i/131f.svg);
+        }
+        .fourthpage {
+            margin-top: -250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .fourthpage .caption3 {
+            padding: 10px;
+
+        }
+        .fourthpage .caption3 h2 {
+            color: #f6f6f7;
+            font-family: "Fira Sans", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 30px;
+        }
+        .fourthpage .caption3 p {
+            text-align: center;
+            margin-top: 10px;
+            color: #f6f6f7;
+            padding: 5px;
+            font-family: "Fira Sans", sans-serif;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 15px;
+
+        }
+        .layer4 {
+            background-image: url(https://svgur.com/i/1320.svg);
+        }
+        .fifthpage {
+            margin-top: -250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .fifthpage .caption4 {
+            padding: 10px;
+
+        }
+        .fifthpage .caption4 h2 {
+            color: #f6f6f7;
+            font-family: "Fira Sans", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 30px;
+        }
+        .fifthpage .caption4 p {
+            text-align: center;
+            margin-top: 10px;
+            color: #f6f6f7;
+            padding: 5px;
+            font-family: "Fira Sans", sans-serif;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 15px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="firstpage">
+        <header>
+            <h2>Road maps</h2>
+            <nav>
+                <ul>
+                    <li><a href="#second-page">Web dev</a></li>
+                    <li><a href="third-page">Mobile app dev</a></li>
+                    <li><a href="fourth-page">Desktop app dev
+                    </a></li>
+                    <li><a href="sixth-page">game dev</a></li>
+                    <li><a href="seventh-pahe">database</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="maincontet1">
+            <h1>Porgramming learning road maps 2024</h1>
+            <p>
+                in this presentation we have gathered 5 different roadmaps,<br> to give you a rough idea about where to start depending on <br>
+                 what do you actually want to with code.
+            </p>
+        
+            
+        </section>
+        
+    </div>
+    <div class="spacer layer1"></div>
+    
+    <div class="secondpage" id="second-page">
+        <section class="caption" >
+            <h2>Web developing</h2>
+            <p>
+                web developing might be the hardest path cuz you have to learn multiple programming languages and go through multiple phases of learning it , but here is a clear road map for you
+            </p>
+        </section>
+        <section class="img"><img src="https://s8.uupload.ir/files/screen_shot_۲۰۲۴-۰۲-۱۲_at_۱۱.۳۹.۱۲_بعدازظهر_micl.png"></section>
+    </div>
+    <div class="spacer layer2"></div>
+    <div class="thirdpage" id="third-page">
+        <section class="caption2">
+        <h2>Mobile app development</h2>
+            <p>
+                building apps for mobile is much more straight up cuz you get to use only one programming language for each based on the operating system
+            </p>
+        </section>
+        <section class="img"><img src="https://s8.uupload.ir/files/screen_shot_۲۰۲۴-۰۲-۱۲_at_۱۱.۴۰.۱۵_بعدازظهر_u8jc.png"></section>
+    </div>
+    <div class="spacer layer3">
+        
+    </div>
+
+    <div class="fourthpage" id="fourth-page">
+        <section class="caption3">
+        <h2>Desktop app development</h2>
+            <p>
+                on the other hand you also ca develop desktop apps again based on the operating system that you are working on , but this time the conncetion between the programming laguages and desktop apps is a little more flexable than mobie apps
+
+            </p>
+        </section>
+        <section class="img"><img src="https://s8.uupload.ir/files/screen_shot_۲۰۲۴-۰۲-۱۲_at_۱۱.۴۱.۰۲_بعدازظهر_m1q6.png"></section>
+    </div>
+    <div class="spacer layer4"></div>
+
+    <div class="fifthpage" id="fifth-page">
+        <section class="caption4">
+            <h2>Game development</h2>
+                <p>
+                    one other way to start your programming carrier would be game development , there are multiple ways to make a game depending on what level and quality you want , but the main roots are listed below,
+    
+                </p>
+            </section>
+            <section class="img"><img src="https://s8.uupload.ir/files/screen_shot_۲۰۲۴-۰۲-۱۲_at_۱۱.۴۲.۲۴_بعدازظهر_v0a7.png">
+            </section>
+
+    </div>
+    
+        
+    
+    
+</body>
+</html>
